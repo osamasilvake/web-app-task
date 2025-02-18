@@ -55,8 +55,9 @@ const isMobileMenuOpen = ref<boolean>(false);
         </ul>
       </div>
 
-      <div class="hidden lg:flex items-center space-x-4">
+      <div class="hidden lg:flex items-center">
         <Button label="Login" variant="secondary" size="large" />
+
         <Button label="Start for free" variant="primary" size="large" />
       </div>
 

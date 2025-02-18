@@ -3,7 +3,7 @@
 <template>
   <div>
     <section
-      class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-10 items-center justify-items-center sm:justify-start mt-12"
+      class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-10 items-center justify-items-center sm:justify-start mt-96"
     >
       <div class="hidden sm:flex">
         <img
