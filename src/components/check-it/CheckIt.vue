@@ -6,7 +6,7 @@ import Button from "../common/Button.vue";
   <div
     class="flex flex-col-reverse items-center sm:items-start justify-between gap-16 mt-8 sm:mt-28 lg:flex-row"
   >
-    <div class="sm:w-[547px]">
+    <div class="sm:w-[547px] mt-4">
       <Button label="Share" variant="primary" size="small" />
       <div>
         <h2
@@ -69,13 +69,13 @@ import Button from "../common/Button.vue";
         </div>
       </div>
 
-      <div class="flex items-center gap-2 pt-12">
+      <div class="flex items-center gap-2 pt-10">
         <img src="../../../src/assets/images/check-it/checklogo.svg" alt="" />
         <h3 class="font-[600]">See how it works</h3>
       </div>
     </div>
 
-    <div class="bg-[#FAFAFA] sm:w-[656px] min-w-[400px] rounded-[24px]">
+    <div class="bg-[#FAFAFA] sm:w-[656px] min-w-[300px] rounded-[24px]">
       <img
         class="w-[500p] mx-auto mt-4"
         src="../../assets//images/check-it/Frame.png"

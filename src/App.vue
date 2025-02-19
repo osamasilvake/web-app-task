@@ -3,6 +3,7 @@ import NavBar from "./components/nav-bar/NavBar.vue";
 import Hero from "./components/hero-section/Hero.vue";
 import Banner from "./components/banner/Banner.vue";
 import CheckIt from "./components/check-it/CheckIt.vue";
+import FeedBack from "./components/feedback/FeedBack.vue";
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import CheckIt from "./components/check-it/CheckIt.vue";
     <Hero />
     <Banner />
     <CheckIt />
+    <FeedBack />
   </div>
 </template>
