@@ -3,16 +3,18 @@ import Button from "../common/Button.vue";
 </script>
 
 <template>
-  <div class="mt-40 flex flex-col lg:flex-row sm:gap-20">
-    <div class="bg-[#FAFAFA] sm:w-[656px] min-w-[300px] rounded-[24px]">
+  <div class="mt-40 flex items-center flex-col lg:flex-row sm:gap-20">
+    <div
+      class="bg-[#FAFAFA] sm:w-[656px] min-w-[300px] h-[477px] rounded-[24px]"
+    >
       <img
-        class="w-[358px] mx-auto mt-4"
+        class="sm:w-[358px] mt-16 mx-auto"
         src="../../assets//images/feed-back/Frame (16).svg"
         alt="check-it"
       />
     </div>
 
-    <div class="sm:w-[547px] mt-4">
+    <div class="sm:w-[547px] pt-10">
       <Button label="Feedback" variant="primary" size="small" />
       <div>
         <h2
